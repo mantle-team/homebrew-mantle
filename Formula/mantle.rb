@@ -1,27 +1,27 @@
 class Mantle < Formula
   desc "Infrastructure automation platform"
   homepage "https://getmantle.sh"
-  version "0.0.13"
+  version "0.0.14"
 
   on_macos do
     on_arm do
-      url "https://github.com/mantle-team/mantle/releases/download/v0.0.13/mantle-darwin-aarch64"
-      sha256 "6c26e805bd4f8a403d77833f13bfee117023e118cdbccd974a61bb54f0224055"
+      url "https://github.com/mantle-team/mantle/releases/download/v0.0.14/mantle-darwin-aarch64"
+      sha256 "950321360d01004aa5fbd5ac0d10aeffae7c69e18f327580dff0e25e9eb7c6a7"
     end
     on_intel do
-      url "https://github.com/mantle-team/mantle/releases/download/v0.0.13/mantle-darwin-x86_64"
-      sha256 "63a74ade21c6428df00ec51e9394da46b448af12b7ac37b73f9baafe73fa53d2"
+      url "https://github.com/mantle-team/mantle/releases/download/v0.0.14/mantle-darwin-x86_64"
+      sha256 "d3a1de7d41a033d5a364c5079b54a710d5ed1e44600dd8472f3f0ac636e63231"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mantle-team/mantle/releases/download/v0.0.13/mantle-linux-aarch64"
-      sha256 "9012af45fda7dbca1e4ba6b97d3107a2a88554807694d2c9fa7501a825de1901"
+      url "https://github.com/mantle-team/mantle/releases/download/v0.0.14/mantle-linux-aarch64"
+      sha256 "eeb675fb5c4778bda68a6c3eae30da742197a63495f91f5cccafcc5d00001c17"
     end
     on_intel do
-      url "https://github.com/mantle-team/mantle/releases/download/v0.0.13/mantle-linux-x86_64"
-      sha256 "bdc42671b8f9a3f740892f7127afaee4c4bd5d0909b730cb372a38d0c8ffc605"
+      url "https://github.com/mantle-team/mantle/releases/download/v0.0.14/mantle-linux-x86_64"
+      sha256 "e1b920c4f2fb550d6220adccf2978b7e852630d54e167a0813aa32756e1a4f06"
     end
   end
 
